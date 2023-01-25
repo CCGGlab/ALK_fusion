@@ -1,0 +1,39 @@
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- r-base=4.0.3
+- r-essentials=4.0
+- bioconductor-deseq2=1.30.0
+- bioconductor-fgsea=1.16.0
+- bioconductor-rots=1.18.0
+- r-svglite=1.2
+- r-gplots=3.1 # heatmap2
+- r-shinyjs=2.0
+- r-shinydashboard=0.7
+- r-venndiagram=1.6.20
+- r-writexls=6.0.0
+- python=3.7 # To avoid python conflicts with hisat2 & htseq (goes to 2.8 by default, conda version related?)
+- hisat2=2.1.0
+- htseq=0.11.2
+- r-dt=0.16
+- r-visnetwork=2.0.9
+- r-shinycssloaders=1.0.0
+- r-igraph=1.2.6
+- r-ggrepel=0.9.1
+- bioconductor-enrichplot=1.10.2
+- r-openxlsx=4.2.3
+- r-xlconnect=1.0.3
+- bioconductor-biomart=2.46.3
+# ggseqlogo generates conflicts, but works to install with install.packages(ggseqlogo)
+# - r-ggseqlogo=0.1
+- r-ggdendro=0.1.22
+- r-gridextra=2.3
+- r-vroom=1.5.5
+- r-rlang=0.4.10
+- r-tabulizer=0.2.2
+
+# The following are necessary to install DEP (Rpacks)
+- r-cairo=1.5
+- r-ncdf4=1.17
+
