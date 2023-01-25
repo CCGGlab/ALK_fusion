@@ -53,8 +53,6 @@ Raw RNA-Seq data have been deposited to Arrayexpress
 
 #### Processing of fastq files
 
-Fastq files available in ArrayExpress (https://www.ebi.ac.uk/arrayexpress/, accession number: E-MTAB-11304)
-
 ```{bash}
 scripts/other/process_fastq.sh
 ```
@@ -80,8 +78,6 @@ source("scripts/DESeq2_analysis.R")
 ### Phosphoproteomics
 
 #### Preprocessing of raw phosphoproteomics data and structuring meta data
-
-The mass spectrometry proteomics data are available in the ProteomeXchange Consortium via the PRIDE partner79 repository (http://proteomecentral.proteomexchange.org/, accession number: PXD035100)
 
 ```{r}
 source("scripts/PP_processing.R")
